@@ -6,16 +6,56 @@ import AnimateOnScroll from "../../shared/AnimateOnScroll";
 
 const experiencesList = [
   {
+    companyName: "Amazon Web Services",
+    role: "Software Engineer",
+    timePeriod: "May 2025 - August 2025",
+    techStack: [],
+  },
+  {
+    companyName: "Shopify",
+    role: "Software Engineer",
+    timePeriod: "January 2025 - April 2025",
+    techStack: [
+      "Ruby",
+      "Rails",
+      "GraphQL",
+      "Kafka",
+      "Redis",
+      "MySQL",
+      "GCP",
+      "React.js",
+    ],
+  },
+  {
     companyName: "Ford Motor Company",
     role: "Software Engineer",
     timePeriod: "May 2024 - August 2024",
-    techStack: ["Java", "Azure", "Spring Boot", "GraphQL", "Redis", "MySQL", "PostgreSQL", "MongoDB", "Docker", "Terraform"]
+    techStack: [
+      "Java",
+      "Azure",
+      "Spring Boot",
+      "GraphQL",
+      "Redis",
+      "MySQL",
+      "PostgreSQL",
+      "MongoDB",
+      "Docker",
+      "Terraform",
+    ],
   },
   {
     companyName: "Polaris Intelligence",
     role: "Full Stack Developer",
     timePeriod: "September 2023 - December 2023",
-    techStack: ["PostgreSQL", "Python", "PHP", "Symfony", "React.js", "jQuery", "Sass"],
+    techStack: [
+      "PostgreSQL",
+      "Python",
+      "PHP",
+      "Symfony",
+      "React.js",
+      "jQuery",
+      "Sass",
+    ],
   },
   {
     companyName: "University Health Network",
@@ -36,20 +76,7 @@ const experiencesList = [
     companyName: "Spotwork",
     role: "Full Stack Web Developer",
     timePeriod: "May 2022 - August 2022",
-    techStack: [
-      "React.js",
-      "GCP",
-      "Node.js",
-      "Redux",
-      "Material UI",
-      "Formik",
-    ],
-  },
-  {
-    companyName: "1915 Lan Zhou Ramen",
-    role: "Full Stack Engineer",
-    timePeriod: "June 2021 - August 2021",
-    techStack: ["AWS", "Django", "MySQL", "jQuery", "Sass"],
+    techStack: ["React.js", "GCP", "Node.js", "Redux", "Material UI", "Formik"],
   },
   {
     companyName: "Code Ninjas",
@@ -117,10 +144,10 @@ const Experience = () => {
               <AnimateOnScroll animation="fade-left">
                 <Box py={5} pl={3}>
                   <Typography variant="h4" color="secondary.main">
-                    {experience.role}
+                    {experience.companyName}
                   </Typography>
                   <Typography sx={{ fontWeight: 700 }}>
-                    {experience.companyName}
+                    {experience.role}
                   </Typography>
                   {experience.techStack && (
                     <Box maxWidth="350px" mb={1.5}>

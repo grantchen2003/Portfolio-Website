@@ -3,7 +3,6 @@ import React from "react";
 import { v4 as uuidv4 } from "uuid";
 import AnimateOnScroll from "../../shared/AnimateOnScroll";
 import GitHubIcon from "@mui/icons-material/GitHub";
-import { useTheme } from "@mui/styles";
 import useScreenSize from "../../../hooks/useScreenSize";
 
 const projects = [
@@ -48,7 +47,6 @@ const projects = [
 ];
 
 const Projects = () => {
-  const theme = useTheme();
   const { desktop } = useScreenSize();
 
   return (

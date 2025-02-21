@@ -82,7 +82,7 @@ const Hero = () => {
               textAlign={(tablet || phone) && "center"}
               gutterBottom
             >
-              I'm a full stack developer.
+              I'm a software engineer.
             </Typography>
           </Box>
         </Fade>
