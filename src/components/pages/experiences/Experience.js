@@ -6,10 +6,10 @@ import AnimateOnScroll from "../../shared/AnimateOnScroll";
 
 const experiencesList = [
   {
-    companyName: "Amazon Web Services",
+    companyName: "AWS",
     role: "Software Engineer",
     timePeriod: "May 2025 - August 2025",
-    techStack: [],
+    techStack: ["Java", "Kotlin", "Ruby", "Bash", "Redis", "AWS", "MySQL"],
   },
   {
     companyName: "Shopify",
