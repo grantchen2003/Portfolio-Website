@@ -110,7 +110,7 @@ const Skills = () => {
                 display="flex"
                 justifyContent={desktop ? "right" : "center"}
                 alignItems="right"
-                width={desktop && "200px"}
+                width={desktop && "250px"}
               >
                 <Typography
                   color="secondary.main"
