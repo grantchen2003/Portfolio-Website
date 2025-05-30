@@ -20,7 +20,6 @@ const LargeNavBar = ({ navBarItems }) => {
       sx={{ backdropFilter: "blur(10px)" }}
     >
       <Grid container>
-        <Grid item xs />
         <Grid item xs>
           <Box display="flex" justifyContent="center">
             {navBarItems.map(({ label, link }) => (
@@ -28,10 +27,6 @@ const LargeNavBar = ({ navBarItems }) => {
                 {label}
               </NavBarItem>
             ))}
-          </Box>
-        </Grid>
-        <Grid item xs>
-          <Box display="flex" justifyContent="right" pr={5}>
             <NavBarItem resume>RESUME</NavBarItem>
           </Box>
         </Grid>
