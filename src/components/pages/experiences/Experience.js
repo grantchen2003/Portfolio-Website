@@ -24,6 +24,7 @@ const experiencesList = [
       "Memcached",
       "MySQL",
       "GCP",
+      "Docker",
       "React.js",
     ],
   },
