@@ -56,6 +56,7 @@ export const allSkills = {
     MongoDB:
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
     Redis: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redis/redis-original.svg",
+    Memcached: "https://www.svgrepo.com/show/354056/memcached.svg",
     Docker:
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
     gRPC: "https://grpc.io/img/logos/grpc-icon-color.png",

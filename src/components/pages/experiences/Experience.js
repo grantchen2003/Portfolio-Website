@@ -21,6 +21,7 @@ const experiencesList = [
       "GraphQL",
       "Kafka",
       "Redis",
+      "Memcached",
       "MySQL",
       "GCP",
       "React.js",
