@@ -7,13 +7,13 @@ import AnimateOnScroll from "../../shared/AnimateOnScroll";
 const experiencesList = [
   {
     companyName: "AWS",
-    role: "Software Engineer",
+    role: "Software Engineer Intern",
     timePeriod: "May 2025 - August 2025",
     techStack: ["Java", "Kotlin", "Ruby", "Bash", "Redis", "AWS", "MySQL"],
   },
   {
     companyName: "Shopify",
-    role: "Software Engineer",
+    role: "Software Engineer Intern",
     timePeriod: "January 2025 - April 2025",
     techStack: [
       "Ruby",
@@ -30,7 +30,7 @@ const experiencesList = [
   },
   {
     companyName: "Ford Motor Company",
-    role: "Software Engineer",
+    role: "Software Engineer Intern",
     timePeriod: "May 2024 - August 2024",
     techStack: [
       "Java",
@@ -47,7 +47,7 @@ const experiencesList = [
   },
   {
     companyName: "Polaris Intelligence",
-    role: "Full Stack Developer",
+    role: "Full Stack Developer Intern",
     timePeriod: "September 2023 - December 2023",
     techStack: [
       "PostgreSQL",
@@ -61,7 +61,7 @@ const experiencesList = [
   },
   {
     companyName: "University Health Network",
-    role: "Full Stack Developer",
+    role: "Full Stack Developer Intern",
     timePeriod: "February 2023 - April 2023",
     techStack: [
       "Java",
@@ -76,7 +76,7 @@ const experiencesList = [
   },
   {
     companyName: "Spotwork",
-    role: "Full Stack Web Developer",
+    role: "Full Stack Web Developer Intern",
     timePeriod: "May 2022 - August 2022",
     techStack: ["React.js", "GCP", "Node.js", "Redux", "Material UI", "Formik"],
   },
