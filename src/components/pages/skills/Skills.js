@@ -63,8 +63,6 @@ export const allSkills = {
     gRPC: "https://grpc.io/img/logos/grpc-icon-color.png",
     Nginx:
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg",
-    Linux:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg",
     Git: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
   },
 };
