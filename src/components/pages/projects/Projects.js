@@ -7,8 +7,18 @@ import useScreenSize from "../../../hooks/useScreenSize";
 
 const projects = [
   {
+    name: "chunky",
+    description: "A Go library for resumable uploads of arbitrarily large files.",
+    techStack: [
+      "Go",
+      "Sqlite",
+    ],
+    websiteURL: "https://github.com/grantchen2003/chunky",
+    githubURL: "https://github.com/grantchen2003/chunky",
+  },
+  {
     name: "insight",
-    description: "A CLI search engine to semantically search Python codebases.",
+    description: "A CLI search engine to semantically search Python codebases with natural language.",
     techStack: [
       "Go",
       "Python",
@@ -29,7 +39,7 @@ const projects = [
   },
   {
     name: "fitcountr",
-    description: "Track your fitness and graphically visualize your progress.",
+    description: "Graphically visualize your fitness progress from scanned food barcodes and recorded activity.",
     techStack: [
       "Express.js",
       "MongoDB",
